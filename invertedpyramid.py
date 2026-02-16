@@ -3,6 +3,6 @@
 n = int(input("Enter no.of rows: "))    # 4
 for i in range(n):                      # 0,1,2,3
     print(' '* i, end=' ')
-    for j in range(n-i):
+    for j in range(n-i):                # 4,3,2,1
         print(chr(65+j), end=' ')
     print()
